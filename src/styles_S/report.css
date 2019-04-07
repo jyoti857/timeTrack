@@ -1,0 +1,19 @@
+.col {
+  background-color:  rebeccapurple;
+  padding : 10px;
+  color : white;
+  margin : auto
+}
+
+.table {
+  background-color:  rebeccapurple;
+  padding : 10px;
+  color : white;
+  margin : auto;
+  width : 89%
+}
+
+.tbody {
+  background-color :slategrey;
+  width : 89%;
+}
