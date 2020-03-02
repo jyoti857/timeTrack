@@ -15,6 +15,7 @@ import '../styles_S/report.css'
 import Loading from '../components/common/loading'
 import uuid from "uuid"
 import {inputAll} from '../action/loginActions'
+import Filter_report_layout from './filter_report_layout';
 
 class  Report_layout extends Component  {
   state = {
@@ -66,7 +67,9 @@ class  Report_layout extends Component  {
             </div>
           </div>
         </div> */}
-
+       <Filter_report_layout
+          date = {this.props.profile.date} />
+      
         <table className = 'table'>
               <thead>
                 <tr>

@@ -29,6 +29,7 @@ class Create_profile extends Component {
   onUpdate = () =>{
     const {profile, profiles, loading,  date, platforms, application, others, descriptions} = this.props.profile
     // const {platforms, application, } = profile.profile
+    const {calendarHandleChange} = this.props
     const updateTheProfile = {
       platforms, application, others, date, descriptions
     }
